@@ -1,0 +1,95 @@
+---
+---
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+	{% include head.html %}
+	<body>
+		<section class="header">
+			<div class="container">
+				<nav class="navbar navbar-expand-lg">
+					<div class="container-fluid">
+					  <a class="navbar-brand" href="index.html"><img src="images/logo.png"></a>
+					  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false">
+						<i class="fa fa-bars"></i>
+					  </button>
+					  <div class="collapse navbar-collapse" id="navbarNav">
+						<ul class="navbar-nav ms-auto text-end">
+							<li class="nav-item">
+								<a class="nav-link" aria-current="page" href="index.html">HOME</a>
+							  </li>
+							  <li class="nav-item">
+								<a class="nav-link active-home" href="services.html">SERVICES</a>
+							  </li>
+							  <li class="nav-item">
+								<a class="nav-link" href="contactus.html">CONTACT US</a>
+							  </li>
+						</ul>
+					  </div>
+					</div>
+				</nav>
+			</div>
+		</section>
+		<section class="service">
+			<div class="container">
+				<h2 class="title">Our data analytics covers 3 stages</h2>
+				<p class="subtitle">Visualize , Analyse , Synthesize</p>
+			</div>
+		</section>
+		<section class="feature">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6" >
+						<div class="container-fluid">
+							<h3>Visualize</h3>
+							<a href="https://datavizproject.com/"><img src="images/Visualization.png"></i> </a>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<h4>Problem Assessment with Data Visualization</h4>
+						<p>We help you integrate, combine, and analyse diverse data kinds from multiple data sources.
+							<br> <br>  Laying out these descriptive information in a report effectively and clearly by using graphs, charts, and infographics.
+							<br> <br> We emphasize simple/digestable reporting for you to communicate best with your audience.
+						</p>
+					</div>
+			</div>
+		</section>
+		<section class="feature">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6" text-left>
+						<h3>Analyse</h3>
+						<a href="https://computd.nl/demystification/4-levels-of-data-maturity/"><img src="images/Analytics.png"> </a>
+
+					</div>
+					<div class="col-md-6">
+						<h4>Problem Solving with Data Analytics</h4>
+						<p>  We help you analyse in depth with techniques such as drill-down, data discovery, data mining and correlations.
+							<br> <br> Laying out these diagnostic finding in a report with MECE issue tree format.
+							<br> <br> So your team can use insight from data to make better decisions.
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="feature">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6" text-center>
+						<h3>Synthesize</h3>
+						<a href="https://www.cuelogic.com/blog/design-thinking-for-ai"></i><img src="images/Synthesis.png"></a>
+					</div>
+					<div class="col-md-6">
+						<h4>Solution Recommendation with Data Operations</h4>
+						<p>We offer recommendation to help test solutionf for discovered problem with techniques such as graph analysis, simulation, complex event processing, neural networks, recommendation engines, heuristics, and machine learning.
+							<br> <br> Following Design Thinking model, our suggestion comes with roadmap to iteratively ideate--prototype--test--assess to help you achieve product and service innovation
+							<br> <br> We emphasize actionable solution in a structured way with S.M.A.R.T recommendation framework.
+						</p>
+
+					</div>
+				</div>
+			</div>
+		</section>
+
+		{% include footer.html %}
+	</body>
+</html>
